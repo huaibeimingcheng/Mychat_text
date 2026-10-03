@@ -1,0 +1,41 @@
+[Unit]
+Description=MyChatServer - 基于高并发 epoll 的 C++ 聊天室
+Documentation=file:///opt/chat_server/README.md
+# 等网络就绪再启动
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+
+# ⚠️ 必须改成你服务器上的实际路径。
+# WorkingDirectory 很关键：程序的 -w web、-d data/users.db、-l logs/server.log
+# 都是相对路径，工作目录不对会找不到前端页面和用户库。
+WorkingDirectory=/opt/chat_server
+ExecStart=/opt/chat_server/chat_server -b 0.0.0.0 -p 8888 -t 4 -L info
+
+# 崩溃/被杀后自动拉起
+Restart=always
+RestartSec=3
+
+# 程序自己处理 SIGTERM 做优雅退出
+KillSignal=SIGTERM
+TimeoutStopSec=10
+KillMode=mixed
+
+# 日志：程序自己写 logs/server.log；这里再收一份到 journalctl
+StandardOutput=journal
+StandardError=journal
+
+# 建议用非 root 账号运行（需先创建并授权目录）：
+#   sudo useradd -r -s /sbin/nologin chatuser
+#   sudo chown -R chatuser:chatuser /opt/chat_server
+# User=chatuser
+# Group=chatuser
+
+# 基础加固
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,188 @@
+2026-09-29 17:07:14.749 [INFO ] [tid=6025] [main.cpp:95] ==========================================
+2026-09-29 17:07:14.749 [INFO ] [tid=6025] [main.cpp:96]   MyChatServer 启动中...
+2026-09-29 17:07:14.749 [INFO ] [tid=6025] [main.cpp:97] ==========================================
+2026-09-29 17:07:14.749 [INFO ] [tid=6025] [UserStore.cpp:80] 用户库 data/users.db 不存在，将新建
+2026-09-29 17:07:14.749 [INFO ] [tid=6025] [ChatServer.cpp:44] 用户库就绪，共 0 个已注册用户
+2026-09-29 17:07:14.750 [INFO ] [tid=6026] [EventLoop.cpp:192] EventLoop 7 启动，线程 tid=139774211913280
+2026-09-29 17:07:14.751 [INFO ] [tid=6027] [EventLoop.cpp:192] EventLoop 9 启动，线程 tid=139774203520576
+2026-09-29 17:07:14.752 [INFO ] [tid=6028] [EventLoop.cpp:192] EventLoop 11 启动，线程 tid=139774195127872
+2026-09-29 17:07:14.752 [INFO ] [tid=6029] [EventLoop.cpp:192] EventLoop 13 启动，线程 tid=139774186735168
+2026-09-29 17:07:14.752 [INFO ] [tid=6025] [TcpServer.cpp:72] TcpServer 启动，端口 8888，IO 线程数 4
+2026-09-29 17:07:14.752 [INFO ] [tid=6025] [main.cpp:116] 监听端口 8888，IO 线程 4
+2026-09-29 17:07:14.752 [INFO ] [tid=6025] [main.cpp:117] 前端页面: http://127.0.0.1:8888/
+2026-09-29 17:07:14.752 [INFO ] [tid=6025] [main.cpp:118] 用户库: data/users.db，前端目录: web
+2026-09-29 17:07:14.752 [INFO ] [tid=6025] [main.cpp:119] 按 Ctrl+C 退出
+2026-09-29 17:07:14.752 [INFO ] [tid=6025] [EventLoop.cpp:192] EventLoop 4 启动，线程 tid=139774219292928
+2026-09-29 17:07:20.317 [INFO ] [tid=6026] [Connection.cpp:47] 新连接 peer=127.0.0.1:50924 fd=15
+2026-09-29 17:07:20.318 [DEBUG] [tid=6026] [Connection.cpp:203] fd=15 非 WebSocket 请求，按静态资源处理: 缺少 Upgrade: websocket
+2026-09-29 17:07:20.318 [INFO ] [tid=6026] [Connection.cpp:406] 关闭连接 fd=15 peer=127.0.0.1:50924 user=-
+2026-09-29 17:07:20.318 [DEBUG] [tid=6026] [Connection.cpp:32] Connection 销毁 peer=127.0.0.1:50924
+2026-09-29 17:07:20.414 [INFO ] [tid=6027] [Connection.cpp:47] 新连接 peer=127.0.0.1:50930 fd=15
+2026-09-29 17:07:20.415 [INFO ] [tid=6028] [Connection.cpp:47] 新连接 peer=127.0.0.1:50936 fd=16
+2026-09-29 17:07:20.415 [DEBUG] [tid=6027] [Connection.cpp:203] fd=15 非 WebSocket 请求，按静态资源处理: 缺少 Upgrade: websocket
+2026-09-29 17:07:20.415 [DEBUG] [tid=6028] [Connection.cpp:203] fd=16 非 WebSocket 请求，按静态资源处理: 缺少 Upgrade: websocket
+2026-09-29 17:07:20.415 [INFO ] [tid=6028] [Connection.cpp:406] 关闭连接 fd=16 peer=127.0.0.1:50936 user=-
+2026-09-29 17:07:20.415 [DEBUG] [tid=6028] [Connection.cpp:32] Connection 销毁 peer=127.0.0.1:50936
+2026-09-29 17:07:20.415 [INFO ] [tid=6027] [Connection.cpp:406] 关闭连接 fd=15 peer=127.0.0.1:50930 user=-
+2026-09-29 17:07:20.415 [DEBUG] [tid=6027] [Connection.cpp:32] Connection 销毁 peer=127.0.0.1:50930
+2026-09-29 17:07:20.454 [INFO ] [tid=6029] [Connection.cpp:47] 新连接 peer=127.0.0.1:50944 fd=15
+2026-09-29 17:07:20.455 [INFO ] [tid=6029] [Connection.cpp:217] WebSocket 握手成功 fd=15 peer=127.0.0.1:50944
+2026-09-29 17:07:20.606 [INFO ] [tid=6026] [Connection.cpp:47] 新连接 peer=127.0.0.1:50956 fd=16
+2026-09-29 17:07:20.606 [DEBUG] [tid=6026] [Connection.cpp:203] fd=16 非 WebSocket 请求，按静态资源处理: 缺少 Upgrade: websocket
+2026-09-29 17:07:20.606 [WARN ] [tid=6026] [HttpStatic.cpp:89] 静态文件不存在: web/favicon.ico
+2026-09-29 17:07:20.606 [INFO ] [tid=6026] [Connection.cpp:406] 关闭连接 fd=16 peer=127.0.0.1:50956 user=-
+2026-09-29 17:07:20.606 [DEBUG] [tid=6026] [Connection.cpp:32] Connection 销毁 peer=127.0.0.1:50956
+2026-09-29 17:07:20.614 [INFO ] [tid=6027] [Connection.cpp:47] 新连接 peer=127.0.0.1:50970 fd=16
+2026-09-29 17:07:20.614 [DEBUG] [tid=6027] [Connection.cpp:203] fd=16 非 WebSocket 请求，按静态资源处理: 缺少 Upgrade: websocket
+2026-09-29 17:07:20.614 [INFO ] [tid=6027] [Connection.cpp:406] 关闭连接 fd=16 peer=127.0.0.1:50970 user=-
+2026-09-29 17:07:20.614 [DEBUG] [tid=6027] [Connection.cpp:32] Connection 销毁 peer=127.0.0.1:50970
+2026-09-29 17:07:28.432 [INFO ] [tid=6029] [UserStore.cpp:140] 新用户注册成功: 测试用户甲
+2026-09-29 17:07:28.432 [INFO ] [tid=6029] [ChatServer.cpp:142] 注册成功: 测试用户甲 from 127.0.0.1:50944
+2026-09-29 17:07:35.814 [INFO ] [tid=6028] [Connection.cpp:47] 新连接 peer=127.0.0.1:58452 fd=16
+2026-09-29 17:07:35.815 [DEBUG] [tid=6028] [Connection.cpp:203] fd=16 非 WebSocket 请求，按静态资源处理: 缺少 Upgrade: websocket
+2026-09-29 17:07:35.816 [INFO ] [tid=6028] [Connection.cpp:406] 关闭连接 fd=16 peer=127.0.0.1:58452 user=-
+2026-09-29 17:07:35.816 [DEBUG] [tid=6028] [Connection.cpp:32] Connection 销毁 peer=127.0.0.1:58452
+2026-09-29 17:07:35.826 [INFO ] [tid=6029] [Connection.cpp:291] 收到 close 帧 fd=15 peer=127.0.0.1:50944
+2026-09-29 17:07:35.826 [INFO ] [tid=6029] [Connection.cpp:406] 关闭连接 fd=15 peer=127.0.0.1:50944 user=-
+2026-09-29 17:07:35.826 [DEBUG] [tid=6029] [Connection.cpp:32] Connection 销毁 peer=127.0.0.1:50944
+2026-09-29 17:07:35.831 [INFO ] [tid=6029] [Connection.cpp:47] 新连接 peer=127.0.0.1:58456 fd=15
+2026-09-29 17:07:35.832 [INFO ] [tid=6026] [Connection.cpp:47] 新连接 peer=127.0.0.1:58458 fd=16
+2026-09-29 17:07:35.832 [DEBUG] [tid=6029] [Connection.cpp:203] fd=15 非 WebSocket 请求，按静态资源处理: 缺少 Upgrade: websocket
+2026-09-29 17:07:35.832 [DEBUG] [tid=6026] [Connection.cpp:203] fd=16 非 WebSocket 请求，按静态资源处理: 缺少 Upgrade: websocket
+2026-09-29 17:07:35.832 [INFO ] [tid=6029] [Connection.cpp:406] 关闭连接 fd=15 peer=127.0.0.1:58456 user=-
+2026-09-29 17:07:35.832 [DEBUG] [tid=6029] [Connection.cpp:32] Connection 销毁 peer=127.0.0.1:58456
+2026-09-29 17:07:35.832 [INFO ] [tid=6026] [Connection.cpp:406] 关闭连接 fd=16 peer=127.0.0.1:58458 user=-
+2026-09-29 17:07:35.832 [DEBUG] [tid=6026] [Connection.cpp:32] Connection 销毁 peer=127.0.0.1:58458
+2026-09-29 17:07:35.850 [INFO ] [tid=6027] [Connection.cpp:47] 新连接 peer=127.0.0.1:58474 fd=15
+2026-09-29 17:07:35.850 [INFO ] [tid=6027] [Connection.cpp:217] WebSocket 握手成功 fd=15 peer=127.0.0.1:58474
+2026-09-29 17:07:35.886 [INFO ] [tid=6028] [Connection.cpp:47] 新连接 peer=127.0.0.1:58490 fd=16
+2026-09-29 17:07:35.886 [DEBUG] [tid=6028] [Connection.cpp:203] fd=16 非 WebSocket 请求，按静态资源处理: 缺少 Upgrade: websocket
+2026-09-29 17:07:35.886 [INFO ] [tid=6028] [Connection.cpp:406] 关闭连接 fd=16 peer=127.0.0.1:58490 user=-
+2026-09-29 17:07:35.887 [DEBUG] [tid=6028] [Connection.cpp:32] Connection 销毁 peer=127.0.0.1:58490
+2026-09-29 17:07:41.744 [INFO ] [tid=6027] [ChatRoom.cpp:21] 用户进入聊天室: 测试用户甲（当前在线 1）
+2026-09-29 17:07:41.744 [INFO ] [tid=6027] [ChatServer.cpp:200] 登录成功: 测试用户甲 from 127.0.0.1:58474，在线 1
+2026-09-29 17:07:48.842 [DEBUG] [tid=6027] [ChatServer.cpp:257] 聊天室消息 测试用户甲: 大家好，我是通过点击界面发送的第一条消息
+2026-09-29 17:07:51.901 [INFO ] [tid=6029] [Connection.cpp:47] 新连接 peer=127.0.0.1:48950 fd=16
+2026-09-29 17:07:51.901 [DEBUG] [tid=6029] [Connection.cpp:203] fd=16 非 WebSocket 请求，按静态资源处理: 缺少 Upgrade: websocket
+2026-09-29 17:07:51.901 [INFO ] [tid=6029] [Connection.cpp:406] 关闭连接 fd=16 peer=127.0.0.1:48950 user=-
+2026-09-29 17:07:51.901 [DEBUG] [tid=6029] [Connection.cpp:32] Connection 销毁 peer=127.0.0.1:48950
+2026-09-29 17:07:51.933 [INFO ] [tid=6026] [Connection.cpp:47] 新连接 peer=127.0.0.1:48952 fd=16
+2026-09-29 17:07:51.933 [DEBUG] [tid=6026] [Connection.cpp:203] fd=16 非 WebSocket 请求，按静态资源处理: 缺少 Upgrade: websocket
+2026-09-29 17:07:51.933 [INFO ] [tid=6026] [Connection.cpp:406] 关闭连接 fd=16 peer=127.0.0.1:48952 user=-
+2026-09-29 17:07:51.933 [DEBUG] [tid=6026] [Connection.cpp:32] Connection 销毁 peer=127.0.0.1:48952
+2026-09-29 17:07:51.934 [INFO ] [tid=6027] [Connection.cpp:47] 新连接 peer=127.0.0.1:48956 fd=16
+2026-09-29 17:07:51.937 [DEBUG] [tid=6027] [Connection.cpp:203] fd=16 非 WebSocket 请求，按静态资源处理: 缺少 Upgrade: websocket
+2026-09-29 17:07:51.937 [INFO ] [tid=6027] [Connection.cpp:406] 关闭连接 fd=16 peer=127.0.0.1:48956 user=-
+2026-09-29 17:07:51.937 [DEBUG] [tid=6027] [Connection.cpp:32] Connection 销毁 peer=127.0.0.1:48956
+2026-09-29 17:07:51.956 [INFO ] [tid=6028] [Connection.cpp:47] 新连接 peer=127.0.0.1:48968 fd=16
+2026-09-29 17:07:51.956 [INFO ] [tid=6028] [Connection.cpp:217] WebSocket 握手成功 fd=16 peer=127.0.0.1:48968
+2026-09-29 17:07:52.001 [INFO ] [tid=6029] [Connection.cpp:47] 新连接 peer=127.0.0.1:48982 fd=17
+2026-09-29 17:07:52.001 [DEBUG] [tid=6029] [Connection.cpp:203] fd=17 非 WebSocket 请求，按静态资源处理: 缺少 Upgrade: websocket
+2026-09-29 17:07:52.001 [WARN ] [tid=6029] [HttpStatic.cpp:89] 静态文件不存在: web/favicon.ico
+2026-09-29 17:07:52.001 [INFO ] [tid=6029] [Connection.cpp:406] 关闭连接 fd=17 peer=127.0.0.1:48982 user=-
+2026-09-29 17:07:52.001 [DEBUG] [tid=6029] [Connection.cpp:32] Connection 销毁 peer=127.0.0.1:48982
+2026-09-29 17:07:52.036 [INFO ] [tid=6026] [Connection.cpp:47] 新连接 peer=127.0.0.1:48984 fd=17
+2026-09-29 17:07:52.036 [DEBUG] [tid=6026] [Connection.cpp:203] fd=17 非 WebSocket 请求，按静态资源处理: 缺少 Upgrade: websocket
+2026-09-29 17:07:52.036 [INFO ] [tid=6026] [Connection.cpp:406] 关闭连接 fd=17 peer=127.0.0.1:48984 user=-
+2026-09-29 17:07:52.036 [DEBUG] [tid=6026] [Connection.cpp:32] Connection 销毁 peer=127.0.0.1:48984
+2026-09-29 17:08:00.581 [INFO ] [tid=6028] [UserStore.cpp:140] 新用户注册成功: 测试用户乙
+2026-09-29 17:08:00.581 [INFO ] [tid=6028] [ChatServer.cpp:142] 注册成功: 测试用户乙 from 127.0.0.1:48968
+2026-09-29 17:08:04.479 [INFO ] [tid=6028] [ChatRoom.cpp:21] 用户进入聊天室: 测试用户乙（当前在线 2）
+2026-09-29 17:08:04.479 [INFO ] [tid=6028] [ChatServer.cpp:200] 登录成功: 测试用户乙 from 127.0.0.1:48968，在线 2
+2026-09-29 17:08:08.403 [DEBUG] [tid=6028] [ChatServer.cpp:257] 聊天室消息 测试用户乙: 我是乙，你好甲！@测试用户甲
+2026-09-29 17:08:13.830 [INFO ] [tid=6028] [ChatRoom.cpp:41] 用户离开聊天室: 测试用户乙（当前在线 1）
+2026-09-29 17:08:13.830 [INFO ] [tid=6028] [ChatServer.cpp:225] 用户主动登出: 测试用户乙
+2026-09-29 17:17:21.569 [INFO ] [tid=7381] [main.cpp:95] ==========================================
+2026-09-29 17:17:21.569 [INFO ] [tid=7381] [main.cpp:96]   MyChatServer 启动中...
+2026-09-29 17:17:21.569 [INFO ] [tid=7381] [main.cpp:97] ==========================================
+2026-09-29 17:17:21.569 [INFO ] [tid=7381] [UserStore.cpp:100] 已从 data/users.db 加载 2 个用户
+2026-09-29 17:17:21.569 [INFO ] [tid=7381] [ChatServer.cpp:44] 用户库就绪，共 2 个已注册用户
+2026-09-29 17:17:21.570 [INFO ] [tid=7382] [EventLoop.cpp:192] EventLoop 7 启动，线程 tid=139697426789952
+2026-09-29 17:17:21.570 [INFO ] [tid=7383] [EventLoop.cpp:192] EventLoop 9 启动，线程 tid=139697418397248
+2026-09-29 17:17:21.570 [INFO ] [tid=7384] [EventLoop.cpp:192] EventLoop 11 启动，线程 tid=139697410004544
+2026-09-29 17:17:21.570 [INFO ] [tid=7385] [EventLoop.cpp:192] EventLoop 13 启动，线程 tid=139697401611840
+2026-09-29 17:17:21.570 [INFO ] [tid=7381] [TcpServer.cpp:72] TcpServer 启动，端口 8888，IO 线程数 4
+2026-09-29 17:17:21.570 [INFO ] [tid=7381] [main.cpp:116] 监听端口 8888，IO 线程 4
+2026-09-29 17:17:21.570 [INFO ] [tid=7381] [main.cpp:117] 前端页面: http://127.0.0.1:8888/
+2026-09-29 17:17:21.570 [INFO ] [tid=7381] [main.cpp:118] 用户库: data/users.db，前端目录: web
+2026-09-29 17:17:21.570 [INFO ] [tid=7381] [main.cpp:119] 按 Ctrl+C 退出
+2026-09-29 17:17:21.570 [INFO ] [tid=7381] [EventLoop.cpp:192] EventLoop 4 启动，线程 tid=139697434001664
+2026-09-29 17:17:24.561 [INFO ] [tid=7382] [Connection.cpp:47] 新连接 peer=127.0.0.1:60468 fd=15
+2026-09-29 17:17:24.561 [INFO ] [tid=7382] [Connection.cpp:217] WebSocket 握手成功 fd=15 peer=127.0.0.1:60468
+2026-09-29 17:17:36.561 [INFO ] [tid=7383] [Connection.cpp:47] 新连接 peer=127.0.0.1:56766 fd=16
+2026-09-29 17:17:36.561 [INFO ] [tid=7383] [Connection.cpp:217] WebSocket 握手成功 fd=16 peer=127.0.0.1:56766
+2026-09-29 17:17:53.092 [INFO ] [tid=7384] [Connection.cpp:47] 新连接 peer=127.0.0.1:43890 fd=17
+2026-09-29 17:17:53.094 [INFO ] [tid=7384] [Connection.cpp:406] 关闭连接 fd=17 peer=127.0.0.1:43890 user=-
+2026-09-29 17:17:53.207 [INFO ] [tid=7385] [Connection.cpp:47] 新连接 peer=127.0.0.1:43892 fd=17
+2026-09-29 17:17:53.207 [INFO ] [tid=7382] [Connection.cpp:47] 新连接 peer=127.0.0.1:43904 fd=19
+2026-09-29 17:17:53.207 [INFO ] [tid=7385] [Connection.cpp:406] 关闭连接 fd=17 peer=127.0.0.1:43892 user=-
+2026-09-29 17:17:53.207 [INFO ] [tid=7382] [Connection.cpp:406] 关闭连接 fd=19 peer=127.0.0.1:43904 user=-
+2026-09-29 17:17:53.348 [INFO ] [tid=7383] [Connection.cpp:47] 新连接 peer=127.0.0.1:43916 fd=17
+2026-09-29 17:17:53.348 [WARN ] [tid=7383] [HttpStatic.cpp:89] 静态文件不存在: web/favicon.ico
+2026-09-29 17:17:53.348 [INFO ] [tid=7383] [Connection.cpp:406] 关闭连接 fd=17 peer=127.0.0.1:43916 user=-
+2026-09-29 17:17:53.349 [INFO ] [tid=7384] [Connection.cpp:47] 新连接 peer=127.0.0.1:43922 fd=17
+2026-09-29 17:17:53.349 [INFO ] [tid=7384] [Connection.cpp:217] WebSocket 握手成功 fd=17 peer=127.0.0.1:43922
+2026-09-29 17:22:50.707 [INFO ] [tid=7385] [Connection.cpp:47] 新连接 peer=127.0.0.1:35158 fd=18
+2026-09-29 17:22:50.711 [INFO ] [tid=7385] [Connection.cpp:406] 关闭连接 fd=18 peer=127.0.0.1:35158 user=-
+2026-09-29 17:22:50.780 [INFO ] [tid=7382] [Connection.cpp:47] 新连接 peer=127.0.0.1:35172 fd=18
+2026-09-29 17:22:50.781 [INFO ] [tid=7382] [Connection.cpp:406] 关闭连接 fd=18 peer=127.0.0.1:35172 user=-
+2026-09-29 17:22:50.786 [INFO ] [tid=7383] [Connection.cpp:47] 新连接 peer=127.0.0.1:35182 fd=18
+2026-09-29 17:22:50.787 [INFO ] [tid=7383] [Connection.cpp:406] 关闭连接 fd=18 peer=127.0.0.1:35182 user=-
+2026-09-29 17:22:50.827 [INFO ] [tid=7384] [Connection.cpp:47] 新连接 peer=127.0.0.1:35184 fd=18
+2026-09-29 17:22:50.827 [INFO ] [tid=7384] [Connection.cpp:217] WebSocket 握手成功 fd=18 peer=127.0.0.1:35184
+2026-09-29 17:22:53.426 [INFO ] [tid=7384] [Connection.cpp:291] 收到 close 帧 fd=18 peer=127.0.0.1:35184
+2026-09-29 17:22:53.426 [INFO ] [tid=7384] [Connection.cpp:406] 关闭连接 fd=18 peer=127.0.0.1:35184 user=-
+2026-09-29 21:34:18.563 [INFO ] [tid=7384] [Connection.cpp:291] 收到 close 帧 fd=17 peer=127.0.0.1:43922
+2026-09-29 21:34:18.566 [INFO ] [tid=7384] [Connection.cpp:406] 关闭连接 fd=17 peer=127.0.0.1:43922 user=-
+2026-09-29 21:52:54.757 [INFO ] [tid=7385] [Connection.cpp:47] 新连接 peer=127.0.0.1:54864 fd=17
+2026-09-29 21:52:54.865 [INFO ] [tid=7385] [Connection.cpp:406] 关闭连接 fd=17 peer=127.0.0.1:54864 user=-
+2026-09-29 21:52:54.964 [INFO ] [tid=7382] [Connection.cpp:47] 新连接 peer=127.0.0.1:54866 fd=17
+2026-09-29 21:52:54.965 [INFO ] [tid=7382] [Connection.cpp:406] 关闭连接 fd=17 peer=127.0.0.1:54866 user=-
+2026-09-29 21:52:54.971 [INFO ] [tid=7383] [Connection.cpp:47] 新连接 peer=127.0.0.1:54874 fd=17
+2026-09-29 21:52:54.974 [INFO ] [tid=7383] [Connection.cpp:406] 关闭连接 fd=17 peer=127.0.0.1:54874 user=-
+2026-09-29 21:52:55.078 [INFO ] [tid=7384] [Connection.cpp:47] 新连接 peer=127.0.0.1:54876 fd=17
+2026-09-29 21:52:55.078 [WARN ] [tid=7384] [HttpStatic.cpp:89] 静态文件不存在: web/favicon.ico
+2026-09-29 21:52:55.078 [INFO ] [tid=7384] [Connection.cpp:406] 关闭连接 fd=17 peer=127.0.0.1:54876 user=-
+2026-09-29 21:52:55.083 [INFO ] [tid=7385] [Connection.cpp:47] 新连接 peer=127.0.0.1:54880 fd=17
+2026-09-29 21:52:55.084 [INFO ] [tid=7385] [Connection.cpp:217] WebSocket 握手成功 fd=17 peer=127.0.0.1:54880
+2026-09-29 21:52:56.797 [INFO ] [tid=7385] [Connection.cpp:291] 收到 close 帧 fd=17 peer=127.0.0.1:54880
+2026-09-29 21:52:56.797 [INFO ] [tid=7385] [Connection.cpp:406] 关闭连接 fd=17 peer=127.0.0.1:54880 user=-
+2026-09-30 10:29:22.971 [INFO ] [tid=4015] [main.cpp:145] ==========================================
+2026-09-30 10:29:22.974 [INFO ] [tid=4015] [main.cpp:146]   MyChatServer 启动中...
+2026-09-30 10:29:22.974 [INFO ] [tid=4015] [main.cpp:147] ==========================================
+2026-09-30 10:29:22.975 [INFO ] [tid=4015] [UserStore.cpp:100] 已从 data/users.db 加载 2 个用户
+2026-09-30 10:29:22.975 [INFO ] [tid=4015] [ChatServer.cpp:44] 用户库就绪，共 2 个已注册用户
+2026-09-30 10:29:22.975 [INFO ] [tid=4016] [EventLoop.cpp:192] EventLoop 7 启动，线程 tid=140417431500352
+2026-09-30 10:29:22.977 [INFO ] [tid=4017] [EventLoop.cpp:192] EventLoop 9 启动，线程 tid=140417423107648
+2026-09-30 10:29:22.977 [INFO ] [tid=4018] [EventLoop.cpp:192] EventLoop 11 启动，线程 tid=140417414714944
+2026-09-30 10:29:22.977 [INFO ] [tid=4019] [EventLoop.cpp:192] EventLoop 13 启动，线程 tid=140417406322240
+2026-09-30 10:29:22.977 [INFO ] [tid=4015] [TcpServer.cpp:82] TcpServer 启动，监听 0.0.0.0:8888，IO 线程数 4
+2026-09-30 10:29:22.977 [INFO ] [tid=4015] [main.cpp:166] 监听地址 0.0.0.0:8888，IO 线程 4
+2026-09-30 10:29:22.977 [INFO ] [tid=4015] [main.cpp:168] 本机访问: http://127.0.0.1:8888/
+2026-09-30 10:29:22.978 [INFO ] [tid=4015] [main.cpp:174] 局域网/外部访问: http://192.168.247.129:8888/
+2026-09-30 10:29:22.978 [INFO ] [tid=4015] [main.cpp:180] 用户库: data/users.db，前端目录: web
+2026-09-30 10:29:22.978 [INFO ] [tid=4015] [main.cpp:181] 按 Ctrl+C 退出
+2026-09-30 10:29:22.978 [INFO ] [tid=4015] [EventLoop.cpp:192] EventLoop 4 启动，线程 tid=140417438441728
+2026-09-30 10:29:23.972 [INFO ] [tid=4016] [Connection.cpp:47] 新连接 peer=127.0.0.1:35938 fd=15
+2026-09-30 10:29:23.972 [INFO ] [tid=4016] [Connection.cpp:406] 关闭连接 fd=15 peer=127.0.0.1:35938 user=-
+2026-09-30 10:29:42.649 [INFO ] [tid=4017] [Connection.cpp:47] 新连接 peer=127.0.0.1:40846 fd=15
+2026-09-30 10:29:42.649 [INFO ] [tid=4017] [Connection.cpp:406] 关闭连接 fd=15 peer=127.0.0.1:40846 user=-
+2026-09-30 10:29:42.712 [INFO ] [tid=4018] [Connection.cpp:47] 新连接 peer=127.0.0.1:40854 fd=15
+2026-09-30 10:29:42.712 [INFO ] [tid=4019] [Connection.cpp:47] 新连接 peer=127.0.0.1:40860 fd=16
+2026-09-30 10:29:42.713 [INFO ] [tid=4019] [Connection.cpp:406] 关闭连接 fd=16 peer=127.0.0.1:40860 user=-
+2026-09-30 10:29:42.713 [INFO ] [tid=4018] [Connection.cpp:406] 关闭连接 fd=15 peer=127.0.0.1:40854 user=-
+2026-09-30 10:29:42.760 [INFO ] [tid=4016] [Connection.cpp:47] 新连接 peer=127.0.0.1:40874 fd=15
+2026-09-30 10:29:42.762 [INFO ] [tid=4016] [Connection.cpp:217] WebSocket 握手成功 fd=15 peer=127.0.0.1:40874
+2026-09-30 10:29:42.849 [INFO ] [tid=4017] [Connection.cpp:47] 新连接 peer=127.0.0.1:40880 fd=16
+2026-09-30 10:29:42.849 [WARN ] [tid=4017] [HttpStatic.cpp:89] 静态文件不存在: web/favicon.ico
+2026-09-30 10:29:42.850 [INFO ] [tid=4017] [Connection.cpp:406] 关闭连接 fd=16 peer=127.0.0.1:40880 user=-
+2026-09-30 10:29:42.881 [INFO ] [tid=4018] [Connection.cpp:47] 新连接 peer=127.0.0.1:40890 fd=16
+2026-09-30 10:29:42.881 [INFO ] [tid=4018] [Connection.cpp:406] 关闭连接 fd=16 peer=127.0.0.1:40890 user=-
+2026-09-30 10:32:18.189 [INFO ] [tid=4016] [UserStore.cpp:140] 新用户注册成功: fonttest
+2026-09-30 10:32:18.189 [INFO ] [tid=4016] [ChatServer.cpp:142] 注册成功: fonttest from 127.0.0.1:40874
+2026-09-30 10:32:27.497 [INFO ] [tid=4016] [ChatRoom.cpp:21] 用户进入聊天室: fonttest（当前在线 1）
+2026-09-30 10:32:27.497 [INFO ] [tid=4016] [ChatServer.cpp:200] 登录成功: fonttest from 127.0.0.1:40874，在线 1
+2026-09-30 10:37:20.211 [INFO ] [tid=4016] [Connection.cpp:291] 收到 close 帧 fd=15 peer=127.0.0.1:40874
+2026-09-30 10:37:20.211 [INFO ] [tid=4016] [Connection.cpp:406] 关闭连接 fd=15 peer=127.0.0.1:40874 user=fonttest
+2026-09-30 10:37:20.211 [INFO ] [tid=4016] [ChatRoom.cpp:41] 用户离开聊天室: fonttest（当前在线 0）
+2026-09-30 10:37:20.211 [INFO ] [tid=4016] [ChatServer.cpp:87] 用户断开: fonttest，在线 0

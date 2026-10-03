@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>聊天室 · MyChatServer</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <!-- 顶部状态栏 -->
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">💬</span>
+      <div>
+        <h1>聊天室</h1>
+        <p class="subtitle">epoll + WebSocket 高并发服务器</p>
+      </div>
+    </div>
+    <div class="status">
+      <span id="statusDot" class="dot"></span>
+      <span id="statusText">未连接</span>
+    </div>
+  </header>
+
+  <!-- 登录 / 注册 -->
+  <section id="authPanel" class="card auth">
+    <div class="tabs">
+      <button id="tabLogin" class="tab active" type="button">登录</button>
+      <button id="tabRegister" class="tab" type="button">注册</button>
+    </div>
+
+    <form id="authForm" autocomplete="off">
+      <label class="field">
+        <span>用户名</span>
+        <input id="username" type="text" placeholder="2~16 字节，可用中文" maxlength="32" required>
+      </label>
+      <label class="field">
+        <span>密码</span>
+        <input id="password" type="password" placeholder="6~64 字节" maxlength="64" required>
+      </label>
+      <p id="authHint" class="hint"></p>
+      <button id="authSubmit" class="primary" type="submit">登录</button>
+    </form>
+
+    <p class="tip">首次使用请先切换到「注册」创建账号。服务器不保存任何聊天记录。</p>
+  </section>
+
+  <!-- 聊天室 -->
+  <section id="chatPanel" class="card chat hidden">
+    <div class="chatHeader">
+      <div class="roomInfo">
+        <strong>大厅</strong>
+        <span class="badge" id="onlineBadge">在线 0 人</span>
+      </div>
+      <div class="actions">
+        <span class="me">我：<b id="meName"></b></span>
+        <button id="btnLogout" class="ghost" type="button">退出登录</button>
+      </div>
+    </div>
+
+    <div class="chatBody">
+      <aside class="users">
+        <h3>在线用户</h3>
+        <ul id="userList"></ul>
+        <p class="usersTip">点击用户名可快速 @ 对方</p>
+      </aside>
+
+      <div class="messages" id="messages">
+        <div class="notice" id="historyNotice">
+          聊天室<b>不提供历史消息</b>：这里只会显示你进入之后的消息。
+          <button id="closeNotice" class="link" type="button">知道了</button>
+        </div>
+      </div>
+    </div>
+
+    <form id="chatForm" class="composer" autocomplete="off">
+      <textarea id="messageInput" rows="1" placeholder="输入消息，Enter 发送，Shift+Enter 换行" maxlength="2000"></textarea>
+      <button class="primary" type="submit">发送</button>
+    </form>
+  </section>
+
+</div>
+
+<script src="/app.js"></script>
+</body>
+</html>
